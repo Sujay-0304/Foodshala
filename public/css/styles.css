@@ -1,0 +1,196 @@
+
+body {
+
+  background-color: #E8ECEF;
+}
+.background{
+  position: absolute;
+  background-image: url("background.jpg");
+  height: 97.3%;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+
+}
+.centered {
+    padding-top: 10px;
+    text-align: center;
+
+}
+.title{
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+letter-spacing: 6.2px;
+color: white;
+z-index: 1;
+text-align: center
+
+}
+.form-control{
+  width: 90%;
+  background: rgb(0,0,0,);
+}
+.wow{
+
+  width: 23rem;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+background: rgb(0,0,0,0.2);
+}
+.titles{
+    font-weight: bold;
+  letter-spacing: 6.2px;
+}
+.sign-in{
+  position: relative;
+  left:39%;
+  margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.notification{
+  position: relative;
+  right: 20px;
+}
+hr{
+  width: 50%;
+}
+.btn-success{
+  position: absolute;
+  left: 40%;
+  margin-top: 40rem;
+  justify-content: center;
+  padding:0.8rem;
+}
+.total-price{
+  padding-bottom: 7rem;
+
+}
+
+
+.add{
+  width: 4rem;
+  margin: 5px;
+}
+.row{
+  margin: 10px;
+}
+.cusine{
+  border-radius: 14px;
+  color: black;
+  border-color: black;
+  display: flex;
+  margin: 10px;
+
+  transition: 0.7s;
+}
+.veg{
+  font-weight: bold;
+  color: green;
+}
+
+.nonveg{
+  font-weight: bold;
+  color: red;
+}
+
+.cusine:hover{
+  background: black;
+  color: white;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+.explore{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+transition: 0.7;
+border-color: black;
+}
+
+
+.explore:hover{
+    background: white;
+    color: black;
+    border-color: white;
+}
+.register{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.login{
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+b::before{
+  content: "";
+  animation: animate infinite 7s;
+}
+
+@keyframes animate {
+  0%{
+    content: ":)";
+  }
+  20%{
+    content: "Night Games?";
+  }
+  50%{
+    content: "Unspecified Cooks?";
+  }
+
+  80%{
+    content: "Order Now?";
+  }
+  100%{
+    content: "Hungry?";
+  }
+
+}
+.navbar-toggler:focus{
+  outline: none;
+}
+
+.rotate-text{
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #000;
+}
+.text{
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+img{
+  width: 17rem;
+  height: 15rem;
+  border-radius: 2px;
+
+}
+.price-img{
+  width: 100%;
+  background-position: center;
+}
+.quantity{
+  width: 2.5rem;
+}
+.btn-danger{
+  width: 5rem;
+  text-align: center;
+
+}
+.total-price{
+  position: absolute;
+  right: 4rem;
+}

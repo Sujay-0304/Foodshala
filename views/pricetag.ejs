@@ -1,0 +1,97 @@
+
+<%- include('partials/header') %>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light ">
+  <a class="navbar-brand titles" href="#">FoodShala</a>
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+  <ul class="navbar-nav  ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><i class="fas fa-user fa-1x mx-5"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link cartss" href="#carts"><i class="fas fa-shopping-basket fa-1x mx-5"></i></a>
+        </li>
+      </ul>
+</div>
+</nav>
+<br>
+
+<h3 class="display-5">Menu Test for Restaraunts</h3>
+<br>
+<img src="images/background.jpg" class="price-img">
+<br>
+
+<div class="cart-items">
+  <div class="row text-center">
+
+    <div class="col-3 titletag "> test for menu 1 </div>
+    <div class="col-3 veg "> veg </div>
+    <div class="col-3 pricetag">  price:90</div>
+    <div class="col-3"><button type="button" class="btn add btn-primary"name="button">ADD</button> </div>
+
+  </div>
+  <div class="row text-center">
+    <div class="col-3 titletag "> test for menu 2 </div>
+    <div class="col-3 nonveg text-center"> nonveg </div>
+    <div class="col-3 pricetag">  price:80</div>
+    <div class="col-3">  <button type="button" class="btn add btn-primary"name="button">ADD</button></div>
+  </div>
+  <div class="row text-center">
+    <div class="col-3 titletag "> test for menu 3 </div>
+    <div class="col-3 nonveg text-center"> nonveg </div>
+    <div class="col-3 pricetag">  price:40</div>
+    <div class="col-3">  <button type="button" class="btn add btn-primary"name="button">ADD</button></div>
+  </div>
+  <div class="row text-center">
+    <div class="col-3 titletag "> test for menu 4 </div>
+    <div class="col-3 veg text-center"> veg </div>
+    <div class="col-3 pricetag">  price:150</div>
+    <div class="col-3">  <button type="button" class="btn add btn-primary"name="button">ADD</button></div>
+  </div>
+  <div class="row text-center">
+    <div class="col-3 titletag "> test for menu 5 </div>
+    <div class="col-3 nonveg text-center"> nonveg </div>
+    <div class="col-3 pricetag">  price:70</div>
+    <div class="col-3">  <button type="button" class="btn add btn-primary"name="button">ADD</button></div>
+  </div>
+</div>
+
+
+
+<h3 class="display-4 my-3 text-center" id ="carts">Carts</h3>
+
+
+<div class="cart-item items">
+
+<!--  <div class="row cart-row text-center">
+
+      <div class="col-3 cart-title"> test for menu 1 </div>
+      <div class="col-3 veg cart-price"> price:40 </div>
+      <div class="col-3"> <input type="number" class="quantity" value="1"></div>
+      <div class="col-3"> <button type="button" class="btn  btn-danger"name="button">REMOVE</button> </div>
+    </div>
+    <div class="row cart-row text-center">
+
+
+
+
+         <div class="col-3 cart-title"> test for menu 2 </div>
+        <div class="col-3 veg cart-price"> price:80 </div>
+        <div class="col-3"> <input type="number" class="quantity" value="1"></div>
+        <div class="col-3"> <button type="button" class="btn  btn-danger"name="button">REMOVE</button> </div>
+
+      </div>-->
+
+  </div>
+
+<h4 class="total-price my-4">Total Price:<span class="cost">0</span></h4>
+<br>
+<br>
+<button type="button" class="btn-success btn my-4 " name="button">purchase</button>
+<%- include('partials/footer') %>

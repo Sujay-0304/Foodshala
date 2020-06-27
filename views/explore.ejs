@@ -1,0 +1,135 @@
+<%- include('partials/header') %>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light ">
+  <a class="navbar-brand titles" href="#">FoodShala</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><i class="fas fa-user fa-1x mx-5"></i></a>
+        </li>
+       <li class="nav-item">
+
+           <a class="nav-link"  href="/pricetag"><i class="fas fa-shopping-basket fa-1x mx-5"></i></a>
+
+
+        </li>
+      </ul>
+</div>
+</nav>
+
+<h3 class="display-4">Restaraunts</h3>
+
+<br>
+<form  action="/pricetag" method="POST">
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/pizza.jpg" class="card-img-top img">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 1</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/row2.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 2</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+      <img src="images/hot.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 3</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/but.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 4</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/burger.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 5</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/burger2.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 6</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/noodles.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 7</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+      <img src="images/chicken.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title text-center">Text Restaraunt 8</h5>
+          <p class="card-text mx-3">cusines</p>
+          <button type="submit" class="btn cusine" name="button">cusine1</button>
+          <button type="submit" class="btn cusine" name="button">cusine2</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</form>
+
+
+<%- include('partials/footer') %>
